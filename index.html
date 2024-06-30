@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LOGIN PAGE</title>
+</head>
+<body bgcolor="aqua">
+  <form action="action_page.php" method="POST">
+    <div>
+       <lable for="fname">First name:</lable>
+       <input type="text" id="fanme" name="fname" placeholder="maithili" required>
+    </div>
+
+    <br>
+
+    <div>
+       <lable for="lname">Last name:</lable>
+       <input type="text" id="lanme" name="lname" placeholder="guntaka" required>
+    </div>
+
+    <br>
+    <div>
+      <lable for="email">email:</lable>
+      <input type="text" id="email" name="email">
+   </div>
+   <br>
+
+   <div>
+    <lable for="password">password:</lable>
+    <input type="text" id="password" name="password">
+ </div>
+ <br>
+ <div>
+  <lable for="phone">phone:</lable>
+  <input type="text" id="phone" name="phone">
+</div>
+<br>
+<div>
+  <lable for="bdate">birthdate:</lable>
+  <input type="date" id="bdate" name="bdate">
+</div>
+<br>
+<div>
+  <lable for="quantity">quantity:</lable>
+  <input type="number" id="quantity" name="quantity" min="0" max="99" value="1">
+</div>
+<br>
+<div>
+  <lable for="title">title:</lable>
+
+  <lable for="Mr.">Mr.</lable>
+  <input type="radio" name="title" value="Mr.">
+
+  <lable for="Mrs.">Mrs.</lable>
+  <input type="radio" name="title" value="Mrs.">
+
+  <lable for="PhD">PhD.</lable>
+  <input type="radio" name="title" value="PhD">
+</div>
+<br>
+<div>
+  <lable for="payment">payment:</lable>
+  <select id="payment" name="payment">
+    <option value="visa">visa</option>
+    <option value="mastercard">mastercard</option>
+    <option value="giftcard">giftcard</option>
+  </select>
+</div>
+<br>
+<div>
+  <lable for="subscribe">subscribe:</lable>
+  <input type="checkbox" id="subscribe" name="subscribe">
+</div>
+<br>
+    <div>
+      <input type="reset">
+    </div>
+    <br>
+    <div>
+      <input type="submit">
+    </div>
+  </form>
+</body>
+</html>
